@@ -71,18 +71,21 @@ $desk: 70em 16; // At 70em use 16 columns.
     .l-content {
       @include span-columns(8, 12); // Span 8 out of 12 columns.
     }
-    .l-region--postscript-first {
-      @include span-columns(5, 8);
-    }
-    .l-region--postscript-second {
-      @include span-columns(3 omega, 8);
-    }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
       @include span-columns(4 omega, 12); // Span the last (omega) 4 columns of 12.
     }
     .l-region--sidebar-second {
       clear: right;
+    }
+  }
+  
+  .postscript-both {
+    .l-region--postscript-first {
+      @include span-columns(5, 8);
+    }
+    .l-region--postscript-second {
+      @include span-columns(3 omega, 8);
     }
   }
 }
