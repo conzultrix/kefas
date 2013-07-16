@@ -23,9 +23,9 @@ $container-width: 1200px;
 
 // Susy Media Layouts @see http://susy.oddbird.net/guides/reference/#ref-media-layouts
 $tab: 44em 12; // At 44em use 12 columns.
-$desk: 70em 16; // At 70em use 16 columns.
+$desk: 70em 24; // At 70em use 16 columns.
 $tab-cols: 12; 
-$desk-cols: 16;
+$desk-cols: 24;
 
 .l-header,
 .l-main,
@@ -36,16 +36,17 @@ $desk-cols: 16;
   margin-bottom: $vert-spacing-unit;
 }
 
-.l-stack {
-  margin-bottom: $vert-spacing-unit;
-}
 
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
-.l-region--sidebar-second ,
-.l-region--stack-first,
-.l-region--stack-second {
+.l-region--sidebar-second,
+.l-region--postscript-first,
+.l-region--postscript-second,
+.l-region--postscript-third,
+.l-region--footertop-first,
+.l-region--footertop-second,
+.l-region--footertop-third {
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -75,6 +76,10 @@ $desk-cols: 16;
     clear: both;
   }
   
+  .l-postscript {
+    clear: both;
+  }
+  
   .sidebar-first,
   .sidebar-second,
   .two-sidebars {
@@ -88,30 +93,47 @@ $desk-cols: 16;
     .l-region--sidebar-second {
       clear: right;
     }
-  
-  
-    &.stack-both {
-      .l-region--stack-first {
-        @include span-columns(5, 8);
-      }
-      .l-region--stack-second {
-        @include span-columns(3 omega, 8);
-      }
-    }
-    
   }
   
-  .three-postscripts {
+  /*.three-postscripts {
     .l-region--postscript-first,
-    .l-region--postscript-second {
-      @include span-columns(4, 12);
+    .l-region--postscript-second,
+    .l-region--postscript-third {
+      @include span-columns($tab-cols/3, $tab-cols);
     }
     
     .l-region-postscript-third {
-      @include span-columns(4 omega, 12);
-      clear: none;
+      @include omega;
+      //clear: right;
+    }
+  }*/
+  
+  .three-postscripts {
+    .l-region--postscript-first {
+      @include span-columns($desk-cols/3, $desk-cols);
+    }
+    .l-region--postscript-second,
+    .l-region--postscript-third {
+      @include span-columns($desk-cols/3, $desk-cols);
+    }
+    .l-region--postscript-third {
+      @include omega;
     }
   }
+  
+  .l-region--footertop-second,
+  .l-region--footertop-third {
+    @include span-columns($tab-cols/2, $tab-cols);
+  }
+  
+  .l-region--footertop-third {
+    @include omega;
+  }
+  
+  .l-region--footer {
+    clear: both;
+  }
+  
 }
 
 @include at-breakpoint($desk) {
@@ -124,44 +146,44 @@ $desk-cols: 16;
   }
 
   .l-branding {
-    @include span-columns(4, 16); // Span 6 out of 16 columns.
+    @include span-columns($desk-cols/4, $desk-cols); // Span 6 out of 16 columns.
   }
   .l-region--header{
-    @include span-columns(4 omega, 16); // Span the last (omega) 10 columns of 16.
+    @include span-columns($desk-cols/4 omega, $desk-cols); // Span the last (omega) 10 columns of 16.
   }
    .l-region--navigation {
-    @include span-columns(8, 16); // Span 6 out of 12 columns.
+    @include span-columns($desk-cols/2, $desk-cols); // Span 6 out of 12 columns.
   }
 
   .sidebar-first {
     .l-content {
-      @include span-columns(12 omega, 16); // Span the last (omega) 12 columns of 16.
+      @include span-columns(0.75 * $desk-cols omega, $desk-cols); // Span the last (omega) 12 columns of 16.
     }
     .l-region--sidebar-first {
-      @include span-columns(4, 16); // Span 4 out of 16 columns.
+      @include span-columns($desk-cols/4, $desk-cols); // Span 4 out of 16 columns.
     }
   }
   .sidebar-second {
     .l-content {
-      @include span-columns(12, 16); // Span 12 out of 16 columns.
+      @include span-columns(0.75 * $desk-cols, $desk-cols); // Span 12 out of 16 columns.
     }
     .l-region--sidebar-second {
-      @include span-columns(4 omega, 16); // Span the last (omega) 12 columns of 16.
+      @include span-columns($desk-cols/4 omega, $desk-cols); // Span the last (omega) 12 columns of 16.
       clear: none;
     }
   }
 
   .two-sidebars {
     .l-content {
-      @include span-columns(8, 16); // Span 12 out of 16 columns.
-      @include push(4, 16);  // Push element by adding 4 out of 16 columns of left margin.
+      @include span-columns($desk-cols/2, $desk-cols); // Span 12 out of 16 columns.
+      @include push($desk-cols/4, $desk-cols);  // Push element by adding 4 out of 16 columns of left margin.
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
-      @include span-columns(4, 16); // Span 4 out of 16 columns.
+      @include span-columns($desk-cols/4, $desk-cols); // Span 4 out of 16 columns.
     }
     .l-region--sidebar-first {
-      @include pull(12, 16); // Pull element by adding 12 out of 16 columns of negative left margin.
+      @include pull(0.75 * $desk-cols, $desk-cols); // Pull element by adding 12 out of 16 columns of negative left margin.
     }
     .l-region--sidebar-second {
       @include omega; // This element spans the last (omega) column.
@@ -172,16 +194,28 @@ $desk-cols: 16;
   .three-postscripts {
     .l-region--postscript-first,
     .l-region--postscript-second {
-      @include span-columns(5, 16);
+      @include span-columns($desk-cols/3, $desk-cols);
     }
     
     .l-region-postscript-third {
-      @include span-columns(6 omega, 16);
+      @include span-columns($desk-cols/3 omega, $desk-cols);
       clear: none;
     }
   }
   
-  .l-footertop {
+  .l-region--footertop-first {
+    @include span-columns($desk-cols/2, $desk-cols);
+  }
+  .l-region--footertop-second,
+  .l-region--footertop-third {
+    @include span-columns($desk-cols/4, $desk-cols);
+  }
+  .l-region--footertop-third {
+    @include omega;
+  }
+  
+  .l-region--footer {
     clear: both;
   }
+
 }

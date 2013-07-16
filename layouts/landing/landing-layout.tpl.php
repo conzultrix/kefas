@@ -42,10 +42,6 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     
-      <div class="l-stack">
-        <?php print render($page['stack_first']); ?>
-        <?php print render($page['stack_second']); ?>
-      </div>
     </div>
 
     <?php print render($page['sidebar_first']); ?>
@@ -54,14 +50,16 @@
     
   </div>
   
-  
+  <div class="l-postscript">
+    <?php print render($page['postscript_first']); ?>
+    <?php print render($page['postscript_second']); ?>
+    <?php print render($page['postscript_third']); ?>
+  </div>
   
   <footer class="l-footer" role="contentinfo">
-    <div class="l-footertop">
-      <?php print render($page['footertop_first']); ?>
-      <?php print render($page['footertop_second']); ?>
-      <?php print render($page['footertop_third']); ?>
-    </div>
+    <?php print render($page['footertop_first']); ?>
+    <?php print render($page['footertop_second']); ?>
+    <?php print render($page['footertop_third']); ?>
     <?php print render($page['footer']); ?>
   </footer>
 </div>

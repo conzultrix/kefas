@@ -1,7 +1,7 @@
-name = Bricks
+name = Landing
 description = A stacked grid 3 column layout.
 preview = preview.png
-template = bricks-layout
+template = landing-layout
 
 ; Regions
 regions[header]               = Header
@@ -10,8 +10,6 @@ regions[preface]              = Preface
 regions[highlighted]          = Highlighted
 regions[help]                 = Help
 regions[content]              = Content
-regions[stack_first]          = First stack
-regions[stack_second]         = Second stack
 regions[sidebar_first]        = First sidebar
 regions[sidebar_second]       = Second sidebar
 regions[postscript_first]     = First postscript
@@ -23,4 +21,4 @@ regions[footertop_third]      = Footertop third
 regions[footer]               = Footer
 
 ; Stylesheets
-stylesheets[all][] = css/layouts/bricks/bricks.layout.css
+stylesheets[all][] = css/layouts/landing/landing.layout.css

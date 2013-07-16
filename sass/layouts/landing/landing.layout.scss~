@@ -36,16 +36,10 @@ $desk-cols: 16;
   margin-bottom: $vert-spacing-unit;
 }
 
-.l-stack {
-  margin-bottom: $vert-spacing-unit;
-}
-
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
-.l-region--sidebar-second ,
-.l-region--stack-first,
-.l-region--stack-second {
+.l-region--sidebar-second {
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -90,15 +84,7 @@ $desk-cols: 16;
     }
   
   
-    &.stack-both {
-      .l-region--stack-first {
-        @include span-columns(5, 8);
-      }
-      .l-region--stack-second {
-        @include span-columns(3 omega, 8);
-      }
-    }
-    
+       
   }
   
   .three-postscripts {
