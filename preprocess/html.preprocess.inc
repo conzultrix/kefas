@@ -27,6 +27,27 @@ function kefas_preprocess_html(&$variables) { //dpm($variables);
       break;
   }
   
+  // Footertop region
+  $ft_first = !empty($variables['page']['footertop_first']);
+  $ft_second = !empty($variables['page']['footertop_second']);
+  $ft_third = !empty($variables['page']['footertop_third']);
+  
+  $footertops = _kefas_body_class_prefix($ft_first, $ft_second, $ft_third);
+  
+  switch ($footertops) {
+    case 'three':
+      $variables['classes_array'][] = 'three-footertops';
+      break;
+    
+    case 'two':
+      $variables['classes_array'][] = 'two-footertops';
+      $variables['classes_array'][] = 'footertop-' . _kefas_last_region($ft_second, $ft_third) . '-last';
+      if ($ft_second && $ft_third) {
+        $variables['classes_array'][] = 'footertop-second-third';
+      }
+      break;
+  }
+  
 }
 
 function _kefas_body_class_prefix($first, $second, $third) {

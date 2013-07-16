@@ -126,17 +126,18 @@ $desk-cols: 24;
     }
   }
   
-  .l-region--footertop-second,
-  .l-region--footertop-third {
-    @include span-columns($tab-cols/2, $tab-cols);
-  }
-  
-  .l-region--footertop-third {
-    @include omega;
-  }
-  
-  .l-region--footer {
-    clear: both;
+  .three-footertops,
+  .footertop-second-third {
+    .l-region--footertop-second,
+    .l-region--footertop-third {
+      @include span-columns($tab-cols/2, $tab-cols);
+    }
+    .l-region--footertop-third {
+      @include omega;
+    }
+    .l-region--footer {
+      clear: both;
+    }
   }
   
 }
@@ -196,15 +197,39 @@ $desk-cols: 24;
     }
   }
   
-  .l-region--footertop-first {
-    @include span-columns($desk-cols/2, $desk-cols);
+  .three-footertops {
+    .l-region--footertop-first {
+      @include span-columns($desk-cols/2, $desk-cols);
+    }
+    .l-region--footertop-second,
+    .l-region--footertop-third {
+      @include span-columns($desk-cols/4, $desk-cols);
+    }
+    .l-region--footertop-third {
+      @include omega;
+    }
   }
-  .l-region--footertop-second,
-  .l-region--footertop-third {
-    @include span-columns($desk-cols/4, $desk-cols);
-  }
-  .l-region--footertop-third {
-    @include omega;
+  
+  .two-footertops{
+    .l-region--footertop-first,
+    .l-region--footertop-second,
+    .l-region--footertop-third {
+      @include span-columns($desk-cols/2, $desk-cols);
+    }
+    
+    &.footertop-second-last {
+      .l-region--footertop-second {
+        @include omega;
+        clear: right;
+      }
+    }
+    
+    &.footertop-third-last {
+      .l-region--footertop-third {
+        @include omega;
+        clear: right;
+      }
+    }
   }
   
   .l-region--footer {
