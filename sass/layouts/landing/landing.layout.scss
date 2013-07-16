@@ -95,29 +95,34 @@ $desk-cols: 24;
     }
   }
   
-  /*.three-postscripts {
+  .three-postscripts {
     .l-region--postscript-first,
     .l-region--postscript-second,
     .l-region--postscript-third {
       @include span-columns($tab-cols/3, $tab-cols);
     }
     
-    .l-region-postscript-third {
+    .l-region--postscript-third {
       @include omega;
-      //clear: right;
+      clear: right;
     }
-  }*/
+  }
   
-  .three-postscripts {
-    .l-region--postscript-first {
-      @include span-columns($desk-cols/3, $desk-cols);
-    }
+  .two-postscripts {
+    .l-region--postscript-first,
     .l-region--postscript-second,
     .l-region--postscript-third {
-      @include span-columns($desk-cols/3, $desk-cols);
+      @include span-columns($tab-cols/2, $tab-cols);
     }
-    .l-region--postscript-third {
-      @include omega;
+    &.postscript-second-last {
+      .l-region--postscript-second {
+        @include omega;
+      }
+    }
+    &.postscript-third-last {
+      .l-region--postscript-third {
+        @include omega;
+      }
     }
   }
   
@@ -187,18 +192,6 @@ $desk-cols: 24;
     }
     .l-region--sidebar-second {
       @include omega; // This element spans the last (omega) column.
-      clear: none;
-    }
-  }
-  
-  .three-postscripts {
-    .l-region--postscript-first,
-    .l-region--postscript-second {
-      @include span-columns($desk-cols/3, $desk-cols);
-    }
-    
-    .l-region-postscript-third {
-      @include span-columns($desk-cols/3 omega, $desk-cols);
       clear: none;
     }
   }
