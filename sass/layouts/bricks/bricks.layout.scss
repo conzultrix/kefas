@@ -101,6 +101,17 @@ $desk-cols: 16;
     
   }
   
+  .no-sidebars {
+    &.stack-both {
+      .l-region--stack-first {
+        @include span-columns (8, 12);
+      }
+      .l-region--stack-second {
+        @include span-columns (4 omega, 12);
+      }
+    }
+  }
+  
   .three-postscripts {
     .l-region--postscript-first,
     .l-region--postscript-second {
@@ -148,6 +159,29 @@ $desk-cols: 16;
     .l-region--sidebar-second {
       @include span-columns(4 omega, 16); // Span the last (omega) 12 columns of 16.
       clear: none;
+    }
+  }
+  
+  .sidebar-first,
+  .sidebar-second {
+    &.stack-both {
+      .l-region--stack-first {
+        @include span-columns(8, 12);
+      }
+      .l-region--stack-second {
+        @include span-columns(4 omega, 12);
+      }
+    }
+  }
+  
+  .no-sidebars {
+    &.stack-both {
+      .l-region--stack-first {
+        @include span-columns (12, 16);
+      }
+      .l-region--stack-second {
+        @include span-columns (4 omega, 16);
+      }
     }
   }
 

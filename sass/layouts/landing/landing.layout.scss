@@ -163,33 +163,33 @@ $desk-cols: 24;
 
   .sidebar-first {
     .l-content {
-      @include span-columns(0.75 * $desk-cols omega, $desk-cols); // Span the last (omega) 12 columns of 16.
+      @include span-columns(2 * $desk-cols/3 omega, $desk-cols); // Span the last (omega) 12 columns of 16.
     }
     .l-region--sidebar-first {
-      @include span-columns($desk-cols/4, $desk-cols); // Span 4 out of 16 columns.
+      @include span-columns($desk-cols/3, $desk-cols); // Span 4 out of 16 columns.
     }
   }
   .sidebar-second {
     .l-content {
-      @include span-columns(0.75 * $desk-cols, $desk-cols); // Span 12 out of 16 columns.
+      @include span-columns(2 * $desk-cols/3, $desk-cols); // Span 12 out of 16 columns.
     }
     .l-region--sidebar-second {
-      @include span-columns($desk-cols/4 omega, $desk-cols); // Span the last (omega) 12 columns of 16.
+      @include span-columns($desk-cols/3 omega, $desk-cols); // Span the last (omega) 12 columns of 16.
       clear: none;
     }
   }
 
   .two-sidebars {
     .l-content {
-      @include span-columns($desk-cols/2, $desk-cols); // Span 12 out of 16 columns.
-      @include push($desk-cols/4, $desk-cols);  // Push element by adding 4 out of 16 columns of left margin.
+      @include span-columns($desk-cols/3, $desk-cols); // Span 12 out of 16 columns.
+      @include push($desk-cols/3, $desk-cols);  // Push element by adding 4 out of 16 columns of left margin.
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
-      @include span-columns($desk-cols/4, $desk-cols); // Span 4 out of 16 columns.
+      @include span-columns($desk-cols/3, $desk-cols); // Span 4 out of 16 columns.
     }
     .l-region--sidebar-first {
-      @include pull(0.75 * $desk-cols, $desk-cols); // Pull element by adding 12 out of 16 columns of negative left margin.
+      @include pull(2*$desk-cols/3, $desk-cols); // Pull element by adding 12 out of 16 columns of negative left margin.
     }
     .l-region--sidebar-second {
       @include omega; // This element spans the last (omega) column.

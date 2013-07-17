@@ -237,26 +237,26 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003165}}
   .sidebar-first .l-content {
-    width: 74.78992%;
+    width: 66.38655%;
     float: right;
     margin-right: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003168}}
   .sidebar-first .l-region--sidebar-first {
-    width: 24.36975%;
+    width: 32.77311%;
     float: left;
     margin-right: 0.84034%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003173}}
   .sidebar-second .l-content {
-    width: 74.78992%;
+    width: 66.38655%;
     float: left;
     margin-right: 0.84034%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003176}}
   .sidebar-second .l-region--sidebar-second {
-    width: 24.36975%;
+    width: 32.77311%;
     float: right;
     margin-right: 0;
     clear: none;
@@ -264,21 +264,21 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003183}}
   .two-sidebars .l-content {
-    width: 49.57983%;
+    width: 32.77311%;
     float: left;
     margin-right: 0.84034%;
-    margin-left: 25.21008%;
+    margin-left: 33.61345%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003188}}
   .two-sidebars .l-region--sidebar-first,
   .two-sidebars .l-region--sidebar-second {
-    width: 24.36975%;
+    width: 32.77311%;
     float: left;
     margin-right: 0.84034%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003191}}
   .two-sidebars .l-region--sidebar-first {
-    margin-left: -75.63025%;
+    margin-left: -67.22689%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/landing\/landing\.layout\.scss}line{font-family:\00003194}}
   .two-sidebars .l-region--sidebar-second {
