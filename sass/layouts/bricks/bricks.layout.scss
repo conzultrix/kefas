@@ -45,7 +45,10 @@ $desk-cols: 16;
 .l-region--sidebar-first,
 .l-region--sidebar-second ,
 .l-region--stack-first,
-.l-region--stack-second {
+.l-region--stack-second,
+.l-region--footertop-first,
+.l-region--footertop-second,
+.l-region--footertop-third {
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -121,6 +124,20 @@ $desk-cols: 16;
     .l-region-postscript-third {
       @include span-columns(4 omega, 12);
       clear: none;
+    }
+  }
+  
+  .three-footertops,
+  .footertop-second-third {
+    .l-region--footertop-second,
+    .l-region--footertop-third {
+      @include span-columns($tab-cols/2, $tab-cols);
+    }
+    .l-region--footertop-third {
+      @include omega;
+    }
+    .l-region--footer {
+      clear: both;
     }
   }
 }
@@ -215,7 +232,38 @@ $desk-cols: 16;
     }
   }
   
-  .l-footertop {
-    clear: both;
+  .three-footertops {
+    .l-region--footertop-first {
+      @include span-columns($desk-cols/2, $desk-cols);
+    }
+    .l-region--footertop-second,
+    .l-region--footertop-third {
+      @include span-columns($desk-cols/4, $desk-cols);
+    }
+    .l-region--footertop-third {
+      @include omega;
+    }
+  }
+  
+  .two-footertops{
+    .l-region--footertop-first,
+    .l-region--footertop-second,
+    .l-region--footertop-third {
+      @include span-columns($desk-cols/2, $desk-cols);
+    }
+    
+    &.footertop-second-last {
+      .l-region--footertop-second {
+        @include omega;
+        clear: right;
+      }
+    }
+    
+    &.footertop-third-last {
+      .l-region--footertop-third {
+        @include omega;
+        clear: right;
+      }
+    }
   }
 }
