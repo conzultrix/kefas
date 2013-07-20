@@ -32,7 +32,7 @@ $desk-cols: 24;
 .l-postscript,
 .l-footer {
   @include container; // Define these elements as the grid containers.
-  @include susy-grid-background; // Show the columns for debugging.
+  //@include susy-grid-background; // Show the columns for debugging.
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -60,7 +60,7 @@ $desk-cols: 24;
   .l-postscript,
   .l-footer {
     @include set-container-width; // Reset only the container width (elements have already been declared as containers).
-    @include susy-grid-background; // Show the columns for debugging.
+    //@include susy-grid-background; // Show the columns for debugging.
   }
 
   .l-branding {
@@ -148,7 +148,7 @@ $desk-cols: 24;
   .l-postscript,
   .l-footer {
     @include set-container-width; // Reset only the container width (elements have already been declared as containers).
-    @include susy-grid-background; // Show the columns for debugging.
+    //@include susy-grid-background; // Show the columns for debugging.
   }
 
   .l-branding {
