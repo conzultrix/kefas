@@ -33,7 +33,7 @@
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000352}}
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
@@ -42,12 +42,13 @@
 .l-region--stack-second,
 .l-region--footertop-first,
 .l-region--footertop-second,
-.l-region--footertop-third {
+.l-region--footertop-third,
+.l-region--connections {
   margin-bottom: 20px;
 }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000364}}
   .l-header,
   .l-main,
   .l-postscript,
@@ -55,33 +56,38 @@
     max-width: 1190px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000369}}
   .l-branding {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000372}}
   .l-region--header {
     width: 23.72881%;
     float: right;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000375}}
   .l-region--navigation {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000378}}
   .l-region--preface {
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000382}}
+  .l-region--connections {
+    margin-bottom: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000389}}
   .sidebar-first .l-content,
   .sidebar-second .l-content,
   .two-sidebars .l-content {
@@ -89,7 +95,7 @@
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000393}}
   .sidebar-first .l-region--sidebar-first,
   .sidebar-first .l-region--sidebar-second,
   .sidebar-second .l-region--sidebar-first,
@@ -100,13 +106,13 @@
     float: right;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000396}}
   .sidebar-first .l-region--sidebar-second,
   .sidebar-second .l-region--sidebar-second,
   .two-sidebars .l-region--sidebar-second {
     clear: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003102}}
   .sidebar-first.stack-both .l-region--stack-first,
   .sidebar-second.stack-both .l-region--stack-first,
   .two-sidebars.stack-both .l-region--stack-first {
@@ -114,7 +120,7 @@
     float: left;
     margin-right: 2.5641%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003105}}
   .sidebar-first.stack-both .l-region--stack-second,
   .sidebar-second.stack-both .l-region--stack-second,
   .two-sidebars.stack-both .l-region--stack-second {
@@ -123,27 +129,27 @@
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003114}}
   .no-sidebars.stack-both .l-region--stack-first {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003117}}
   .no-sidebars.stack-both .l-region--stack-second {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003125}}
   .three-postscripts .l-region--postscript-first,
   .three-postscripts .l-region--postscript-second {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003129}}
   .three-postscripts .l-region-postscript-third {
     width: 32.20339%;
     float: right;
@@ -151,7 +157,7 @@
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003138}}
   .three-footertops .l-region--footertop-second,
   .three-footertops .l-region--footertop-third,
   .footertop-second-third .l-region--footertop-second,
@@ -160,20 +166,33 @@
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003141}}
   .three-footertops .l-region--footertop-third,
   .footertop-second-third .l-region--footertop-third {
     float: right;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003139}}
-  .three-footertops .l-region--footer,
-  .footertop-second-third .l-region--footer {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003147}}
+  .l-connections {
     clear: both;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003152}}
+  .connections-footer .l-region--connections {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003155}}
+  .connections-footer .l-region--footer {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
   }
 }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003165}}
   .l-header,
   .l-main,
   .l-postscript,
@@ -181,47 +200,47 @@
     max-width: 1190px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003170}}
   .l-branding {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003173}}
   .l-region--header {
     width: 24.05063%;
     float: right;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003176}}
   .l-region--navigation {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003181}}
   .sidebar-first .l-content {
     width: 74.68354%;
     float: right;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003184}}
   .sidebar-first .l-region--sidebar-first {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003189}}
   .sidebar-second .l-content {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003192}}
   .sidebar-second .l-region--sidebar-second {
     width: 24.05063%;
     float: right;
@@ -229,14 +248,14 @@
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003201}}
   .sidebar-first.stack-both .l-region--stack-first,
   .sidebar-second.stack-both .l-region--stack-first {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003204}}
   .sidebar-first.stack-both .l-region--stack-second,
   .sidebar-second.stack-both .l-region--stack-second {
     width: 32.20339%;
@@ -244,52 +263,52 @@
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003212}}
   .no-sidebars.stack-both .l-region--stack-first {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003215}}
   .no-sidebars.stack-both .l-region--stack-second {
     width: 24.05063%;
     float: right;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003222}}
   .two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     margin-left: 25.31646%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003227}}
   .two-sidebars .l-region--sidebar-first,
   .two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003230}}
   .two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003233}}
   .two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003241}}
   .three-postscripts .l-region--postscript-first,
   .three-postscripts .l-region--postscript-second {
     width: 30.37975%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003245}}
   .three-postscripts .l-region-postscript-third {
     width: 36.70886%;
     float: right;
@@ -297,26 +316,26 @@
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003252}}
   .three-footertops .l-region--footertop-first {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003256}}
   .three-footertops .l-region--footertop-second,
   .three-footertops .l-region--footertop-third {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003259}}
   .three-footertops .l-region--footertop-third {
     float: right;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003267}}
   .two-footertops .l-region--footertop-first,
   .two-footertops .l-region--footertop-second,
   .two-footertops .l-region--footertop-third {
@@ -324,13 +343,13 @@
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003272}}
   .two-footertops.footertop-second-last .l-region--footertop-second {
     float: right;
     margin-right: 0;
     clear: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/layouts\/bricks\/bricks\.layout\.scss}line{font-family:\00003279}}
   .two-footertops.footertop-third-last .l-region--footertop-third {
     float: right;
     margin-right: 0;

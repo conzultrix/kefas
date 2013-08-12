@@ -48,7 +48,8 @@ $desk-cols: 16;
 .l-region--stack-second,
 .l-region--footertop-first,
 .l-region--footertop-second,
-.l-region--footertop-third {
+.l-region--footertop-third,
+.l-region--connections {
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -76,6 +77,10 @@ $desk-cols: 16;
   }
   .l-region--preface {
     clear: both;
+  }
+  
+  .l-region--connections {
+    margin-bottom: 0;
   }
   
   .sidebar-first,
@@ -136,8 +141,19 @@ $desk-cols: 16;
     .l-region--footertop-third {
       @include omega;
     }
+    
+  }
+  
+  .l-connections {
+    clear: both;
+  }
+  
+  .connections-footer {
+    .l-region--connections {
+      @include span-columns($tab-cols/3 omega, $tab-cols);
+    }
     .l-region--footer {
-      clear: both;
+      @include span-columns(2*$tab-cols/3, $tab-cols);
     }
   }
 }

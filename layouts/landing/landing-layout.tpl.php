@@ -60,6 +60,9 @@
     <?php print render($page['footertop_first']); ?>
     <?php print render($page['footertop_second']); ?>
     <?php print render($page['footertop_third']); ?>
-    <?php print render($page['footer']); ?>
+    <section class="l-connections">
+      <?php print render($page['connections']); ?>
+      <?php print render($page['footer']); ?>
+    </section>
   </footer>
 </div>

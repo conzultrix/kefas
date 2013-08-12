@@ -46,7 +46,8 @@ $desk-cols: 24;
 .l-region--postscript-third,
 .l-region--footertop-first,
 .l-region--footertop-second,
-.l-region--footertop-third {
+.l-region--footertop-third,
+.l-region--connections {
   margin-bottom: $vert-spacing-unit;
 }
 
@@ -108,6 +109,10 @@ $desk-cols: 24;
     }
   }
   
+  .l-region--connections {
+    margin-bottom: 0;
+  }
+  
   .two-postscripts {
     .l-region--postscript-first,
     .l-region--postscript-second,
@@ -134,9 +139,19 @@ $desk-cols: 24;
     }
     .l-region--footertop-third {
       @include omega;
+      clear: right;
+    }
+    .l-connections {
+      clear: both;
+    }
+  }
+  
+  .connections-footer {
+    .l-region--connections {
+      @include span-columns($tab-cols/3 omega, $tab-cols);
     }
     .l-region--footer {
-      clear: both;
+      @include span-columns(2*$tab-cols/3, $tab-cols);
     }
   }
   
@@ -231,9 +246,4 @@ $desk-cols: 24;
       }
     }
   }
-  
-  .l-region--footer {
-    clear: both;
-  }
-
 }

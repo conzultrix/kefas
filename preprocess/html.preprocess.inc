@@ -27,7 +27,7 @@ function kefas_preprocess_html(&$variables) { //dpm($variables);
       break;
   }
   
-  // Footertop region
+  // Footertop regions
   $ft_first = !empty($variables['page']['footertop_first']);
   $ft_second = !empty($variables['page']['footertop_second']);
   $ft_third = !empty($variables['page']['footertop_third']);
@@ -46,6 +46,13 @@ function kefas_preprocess_html(&$variables) { //dpm($variables);
         $variables['classes_array'][] = 'footertop-second-third';
       }
       break;
+  }
+  
+  // Connection region
+  $conn = !empty($variables['page']['connections']);
+  $footer = !empty($variables['page']['footer']);
+  if ($conn && $footer) {
+    $variables['classes_array'][] = 'connections-footer';
   }
   
 }

@@ -57,11 +57,12 @@
   
   
   <footer class="l-footer" role="contentinfo">
-    <div class="l-footertop">
-      <?php print render($page['footertop_first']); ?>
-      <?php print render($page['footertop_second']); ?>
-      <?php print render($page['footertop_third']); ?>
-    </div>
-    <?php print render($page['footer']); ?>
+    <?php print render($page['footertop_first']); ?>
+    <?php print render($page['footertop_second']); ?>
+    <?php print render($page['footertop_third']); ?>
+    <section class="l-connections">
+      <?php print render($page['connections']); ?>
+      <?php print render($page['footer']); ?>
+    </section>
   </footer>
 </div>

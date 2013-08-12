@@ -18,6 +18,7 @@ regions[postscript_third]     = Third postscript
 regions[footertop_first]      = Footertop first
 regions[footertop_second]     = Footertop second
 regions[footertop_third]      = Footertop third
+regions[connections]          = Connections
 regions[footer]               = Footer
 
 ; Stylesheets
