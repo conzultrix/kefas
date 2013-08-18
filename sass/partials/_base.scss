@@ -5,3 +5,40 @@
 @import "base/forms";
 @import "base/media";
 @import "base/menus";
+
+$links: #29AAE1;
+$font: #454545;
+$hover: #333;
+
+body {
+  background-color: #FFF;
+  color: $font;
+}
+
+header {
+  background-color: #222;
+  color: #FFF;
+  z-index: 100;
+  
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: $links;
+  }
+}
+
+header .block__title {
+  display: none;
+}
+
+a {
+  color: $links;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $hover;
+}
