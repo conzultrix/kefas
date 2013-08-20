@@ -6,10 +6,6 @@
 @import "base/media";
 @import "base/menus";
 
-$links: #29AAE1;
-$font: #454545;
-$hover: #333;
-
 body {
   background-color: #FFF;
   color: $font;
@@ -23,10 +19,10 @@ header {
   a {
     color: #FFF;
     text-decoration: none;
-  }
-  
-  a:hover {
-    color: $links;
+    
+    &:hover {
+      color: $links;
+    }
   }
 }
 

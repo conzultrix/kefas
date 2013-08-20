@@ -1,0 +1,18 @@
+/* User Message */
+.l-user-message {
+  img {
+    float: left;
+    margin: 0 0.625em 0 0.625em;
+  }
+}
+
+.user-actions {
+  display: inline-block;
+}
+
+
+/*@include at-breakpoint($desk) {
+  .l-user-message {
+    text-align: right; 
+  }
+}*/
