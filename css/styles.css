@@ -20,36 +20,37 @@ img, media {
 body {
   background-color: #FFF;
   color: #454545;
+  font: normal 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000315}}
 header {
   background-color: #222;
   color: #FFF;
   z-index: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000320}}
 header a {
   color: #FFF;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000324}}
 header a:hover {
   color: #29aae1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000330}}
 header .block__title {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000334}}
 a {
   color: #29aae1;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000339}}
 a:hover {
   color: #333333;
 }
