@@ -1,0 +1,16 @@
+.site-name {
+  text-align: center;
+}
+
+@include at-breakpoint($tab) {
+  .site-name {
+   text-align: left;
+    a {
+      background: transparent url('../images/cw-logo-white.png') left top scroll no-repeat;
+      height: 40px;
+      width: 166px;
+      display: inline-block;
+      text-indent: -9999px;
+    }
+  }
+}

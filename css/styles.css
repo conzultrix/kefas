@@ -20,55 +20,187 @@ img, media {
 body {
   background-color: #FFF;
   color: #454545;
-  font: normal 100%;
+  font-weight: normal;
+  font-size: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000316}}
 header {
   background-color: #222;
   color: #FFF;
   z-index: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000321}}
 header a {
   color: #FFF;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000325}}
 header a:hover {
   color: #29aae1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000331}}
 header .block__title {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000335}}
 a {
   color: #29aae1;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000340}}
 a:hover {
   color: #333333;
 }
 
-/* User Message */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\000033}}
-.l-user-message img {
-  float: left;
-  margin: 0 0.625em 0 0.625em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_base\.scss}line{font-family:\0000344}}
+nav {
+  margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\000039}}
+/* Page */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\000032}}
+.l-page {
+  position: relative;
+}
+
+/* User Message */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\000038}}
+.l-user-message img {
+  float: left;
+  margin-right: 0.625em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000314}}
 .user-actions {
   display: inline-block;
 }
 
+/* Branding */
 /*@include at-breakpoint($desk) {
   .l-user-message {
     text-align: right; 
   }
 }*/
+/* Latest Wiki Updates Block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000328}}
+.l-wiki-updates .views-row {
+  margin-bottom: 0;
+  border-bottom: groove;
+  border-bottom-color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000334}}
+.l-wiki-updates .views-field-field-image {
+  width: 22.7272727%;
+  /* 50px / 220px */
+  height: 50px;
+  float: left;
+  margin-left: 0;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000342}}
+.l-wiki-updates .views-field-title {
+  width: 77.2727273%;
+  /* 170px / 220px */
+  height: 50px;
+  margin: 0;
+  padding-left: 1.1764706%;
+  display: inline-block;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000352}}
+.l-wiki-updates .views-field-last-updated {
+  margin-right: 0;
+  display: block;
+  clear: both;
+  text-align: right;
+  font-size: 0.75em;
+}
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000362}}
+  .l-wiki-updates .views-row {
+    height: 55px;
+    margin-bottom: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000366}}
+  .l-wiki-updates .views-field-field-image {
+    width: 12.9198966%;
+    /* 50px / 387px */
+    height: 50px;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.2919897;
+    /* 5px / 387px */
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000375}}
+  .l-wiki-updates .views-field-title {
+    width: 63.8242894%;
+    /* 247px / 387px */
+    height: 50px;
+    margin-right: 1.2919897;
+    /* 5px / 387px */
+    display: inline-block;
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000383}}
+  .l-wiki-updates .views-field-last-updated {
+    width: 20.6718346%;
+    /* 80px / 387 px */
+    height: 50px;
+    margin-right: 0;
+    display: inline-block;
+    clear: right;
+    text-align: right;
+  }
+}
+
+/* Slideshow */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\0000396}}
+.l-slideshow {
+  text-align: center;
+}
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\00003100}}
+  .l-slideshow .views-field-field-intro-image {
+    width: 55%;
+    float: right;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_layout\.scss}line{font-family:\00003106}}
+  .l-slideshow .views-field-title,
+  .l-slideshow .views-field-body,
+  .l-slideshow .views-field-view-node {
+    width: 45%;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/blocks\/_site-name\.scss}line{font-family:\000031}}
+.site-name {
+  text-align: center;
+}
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/blocks\/_site-name\.scss}line{font-family:\000036}}
+  .site-name {
+    text-align: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/blocks\/_site-name\.scss}line{font-family:\000038}}
+  .site-name a {
+    background: transparent url("../images/cw-logo-white.png") left top scroll no-repeat;
+    height: 40px;
+    width: 166px;
+    display: inline-block;
+    text-indent: -9999px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/blocks\/_main-menu\.scss}line{font-family:\000031}}
+.main-menu {
+  text-align: center;
+}
