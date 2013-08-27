@@ -23,12 +23,39 @@
   }
 }*/
 
+/* Slideshow */
+.l-slideshow {
+  text-align: center;
+  
+  @include at-breakpoint($desk) {
+    .views-field-field-intro-image {
+      width: 55%;
+      float: right;
+    }
+    .views-field-title,
+    .views-field-body,
+    .views-field-view-node {
+      width: 45%;
+      display: block;
+      float: left;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .views-field-body,
+    .views-field-view-node {
+      //margin-top: 20px;
+    }
+  }
+}
+
+
 /* Latest Wiki Updates Block */
 .l-wiki-updates {
   .views-row {
     margin-bottom: 0;
-    border-bottom: groove;
-    border-bottom-color: #FFF;
+    border-bottom: 1px solid #EEE;
+    width: 100%;
+    padding:0;
     //height: 55px;
   }
   .views-field-field-image {
@@ -62,26 +89,29 @@
     .views-row {
       height: 55px;
       margin-bottom: 5px;
+      
     }
     .views-field-field-image {
-      width: 12.9198966%; /* 50px / 387px */
+      width: 13.7362637%; /* 50px / 364px */
       height: 50px;
       float: left;
       margin-left: 0;
-      margin-right: 1.2919897; /* 5px / 387px */
+      margin-right: 1.3736264%; /* 5px / 364px */
       display: inline-block;
     }
     
     .views-field-title {
-      width: 63.8242894%; /* 247px / 387px */
+      width: 65.6593407%; /* 239px / 364px */
       height: 50px;
-      margin-right: 1.2919897; /* 5px / 387px */
+      margin-right: 1.3736264%; /* 5px / 364px */
       display: inline-block;
       overflow: hidden;
+      padding-left: 0;
+      float: left;
     }
     
     .views-field-last-updated {
-      width: 20.6718346%; /* 80px / 387 px */
+      width: 17.8571429%; /* 65px / 364 px */
       height: 50px;
       margin-right: 0;
       display: inline-block;
@@ -92,27 +122,66 @@
   }
 }
 
-/* Slideshow */
-.l-slideshow {
-  text-align: center;
+
+/* Activity Stream */
+.l-activity-stream {
+  p {
+    width: 0;
+    display: none;
+  }
+  .views-row {
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #EEE;
+  }
+  .user-picture {
+    width: 22.7272727%; /* 50px / 220px */
+    float: left;
+    margin-left: 0;
+    display: inline-block;
+  }
+  .activity-message {
+    width: 77.2727273%; /* 170px / 220px */
+    margin: 0;
+    padding-left: 1.1764706%;
+    //margin-right: 2.2727273%; /*5px / 220px */
+    display: inline-block;
+  }
+  .views-field-timestamp {
+    margin-right: 0;
+    display: block;
+    //clear: both;
+    text-align: right;
+    font-size: 0.75em;
+  }
   
   @include at-breakpoint($desk) {
-    .views-field-field-intro-image {
-      width: 55%;
-      float: right;
+    .views-row {
+      margin-bottom: 5px;
     }
-    .views-field-title,
-    .views-field-body,
-    .views-field-view-node {
-      width: 45%;
-      display: block;
+    .user-picture {
+      width: 14.0056022%; /* 50px / 357px */
       float: left;
-      margin-bottom: 20px;
-      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 1.4005602%; /* 5px / 357px */
+      display: inline-block;
     }
-    .views-field-body,
-    .views-field-view-node {
-      //margin-top: 20px;
+    
+    .activity-message {
+      width: 84.5938375%; /* 302px / 357px */
+      margin-right: 0; /* 5px / 357px */
+      padding-left: 0;
+      float: left;
+      display: inline-block;
+    }
+    
+    .views-field-timestamp {
+      //width: 100%; /* 65px / 357 px */
+      margin-right: 0;
+      display: inline-block;
+      //clear: right;
+      text-align: left;
+      padding-left: 15.4061625%; /* 55px / 357px */
     }
   }
 }
