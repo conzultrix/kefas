@@ -1,3 +1,39 @@
+body {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+#{headings(all)} {
+  font-family: 'Ubuntu'; font-style: normal; font-weight: normal;
+}
+
+h1 {
+  //font-size: 1.75em; /* 28px / 16px = 1.75em */
+	//line-height: 1.14285714285714em; /* 32px / 28px = 1.14285714285714em */
+	//margin-bottom: 10px;  
+}
+h2 {
+  //font-size: 1.625em; 
+}
+h3 {
+  //font-size: 1.5em;
+}
+h4 {
+  //font-size: 1.375em;
+}
+h5 {
+  //font-size: 1.25em;
+}
+h6 {
+  //font-size: 1.125em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
 .timestamp {
   color: $font-light;
 }

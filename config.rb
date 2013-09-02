@@ -21,6 +21,7 @@ require 'compass-normalize'
 require 'rgbapng'
 require 'toolkit'
 require 'susy'
+require 'sassy-buttons'
 
 ##
 ## You probably don't need to edit anything below this.

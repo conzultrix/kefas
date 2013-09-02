@@ -167,13 +167,13 @@ $desk-cols: 24;
   }
 
   .l-branding {
-    @include span-columns($desk-cols/4, $desk-cols); // Span 6 out of 16 columns.
+    @include span-columns($desk-cols/4, $desk-cols); // Span 6 out of 24 columns.
   }
   .l-region--header{
-    @include span-columns($desk-cols/4 omega, $desk-cols); // Span the last (omega) 10 columns of 16.
+    @include span-columns($desk-cols/4 omega, $desk-cols); // Span the last (omega) 6 columns of 24.
   }
    .l-region--navigation {
-    @include span-columns($desk-cols/2, $desk-cols); // Span 6 out of 12 columns.
+    @include span-columns($desk-cols/2, $desk-cols); // Span 12 out of 24 columns.
   }
 
   .sidebar-first {

@@ -1,3 +1,50 @@
+#main-menu {
+  display: block;
+  text-align: center;
+}
 .main-menu {
+  text-align: center;
+  color: #FFF;
+  
+  li.first {
+    display: none;
+  }
+  
+  a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    &:hover, &.active {
+      color: $links;
+    }
+  }
+  
+}
+
+@include at-breakpoint($tab) {
+  #nav-main-menu {
+    margin-top: 20px;
+  }
+}
+
+@include at-breakpoint($desk) {
+  #nav-main-menu {
+    margin-top: 0;
+  }
+  .main-menu {
+    a {
+      line-height: 40px;
+      padding: 20px 0 10px 0;
+    
+      &:hover, &.active {
+        border-bottom: 10px solid $links;
+      }
+    }
+  }
+}
+
+#nav-main-menu {
+  display: block;
   text-align: center;
 }

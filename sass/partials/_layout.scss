@@ -3,11 +3,42 @@
   position: relative;
 }
 
+div#section-header {
+  background-color: #222;
+  z-index: 100;
+  width: 100%;
+  margin-bottom: 20px;
+  //position: fixed;
+}
+
+@include at-breakpoint($desk) {
+  #section-header {
+    height: 80px;
+  }
+  
+  .front {
+    #section-header {
+      position: fixed;
+    }
+    .l-main {
+      padding-top: 100px;
+    }
+  }
+}
+
 /* User Message */
 .l-user-message {
+  text-align: center;
   img {
-    float: left;
+    //float: left;
     margin-right: 0.625em;
+  }
+}
+
+@include at-breakpoint($tab) {
+  .l-user-message {
+    float: right;
+    text-align: right;
   }
 }
 
@@ -23,23 +54,34 @@
   }
 }*/
 
+
+
 /* Slideshow */
 .l-slideshow {
   text-align: center;
+  
+  .views-field-body,
+  .views-field-view-node {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+  }
   
   @include at-breakpoint($desk) {
     .views-field-field-intro-image {
       width: 55%;
       float: right;
     }
+    
+    .views-field-title {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
     .views-field-title,
     .views-field-body,
     .views-field-view-node {
       width: 45%;
-      display: block;
       float: left;
-      margin-bottom: 20px;
-      margin-top: 20px;
     }
     .views-field-body,
     .views-field-view-node {

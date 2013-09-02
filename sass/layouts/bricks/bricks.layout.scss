@@ -168,7 +168,7 @@ $desk-cols: 16;
   }
 
   .l-branding {
-    @include span-columns(4, 16); // Span 6 out of 16 columns.
+    @include span-columns(4, 16); // Span 4 out of 16 columns.
   }
   .l-region--header{
     @include span-columns(4 omega, 16); // Span the last (omega) 10 columns of 16.
