@@ -456,3 +456,21 @@ div#section-header {
   color: #FFF;
   display: block;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_view-mode-showcase\.scss}line{font-family:\000031}}
+.view-mode-showcase {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_view-mode-showcase\.scss}line{font-family:\000034}}
+.view-mode-showcase .date-display-single {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white;
+  font-size: 0.875em;
+  /* 14px / 16px */
+  line-height: 1.5;
+  text-align: center;
+  padding: 0.3125em;
+}
