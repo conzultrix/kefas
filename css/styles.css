@@ -26,12 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000313}}
 p {
   line-height: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000317}}
 .timestamp {
   color: #858585;
 }
@@ -457,20 +457,58 @@ div#section-header {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_view-mode-showcase\.scss}line{font-family:\000031}}
-.view-mode-showcase {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_btn\.scss}line{font-family:\0000317}}
+.btn-rsvp {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_view-mode-showcase\.scss}line{font-family:\000032}}
+.view-mode-showcase img {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_view-mode-showcase\.scss}line{font-family:\000036}}
+.view-mode-showcase .event-formatted-info {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_view-mode-showcase\.scss}line{font-family:\000034}}
-.view-mode-showcase .date-display-single {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_view-mode-showcase\.scss}line{font-family:\0000312}}
+.node--event--showcase {
+  max-width: 350px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_overlay\.scss}line{font-family:\000031}}
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
   display: block;
+  text-align: center;
+  color: #dedede;
+  height: 5em;
+  z-index: 100;
   position: absolute;
   left: 0;
-  top: 0;
-  background-color: white;
-  font-size: 0.875em;
-  /* 14px / 16px */
-  line-height: 1.5;
-  text-align: center;
-  padding: 0.3125em;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_overlay\.scss}line{font-family:\0000315}}
+.overlay a {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_overlay\.scss}line{font-family:\0000319}}
+.overlay h3 {
+  margin: 0.125em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_attendee-images\.scss}line{font-family:\000031}}
+.attendee-images {
+  display: inline;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_attendee-images\.scss}line{font-family:\000035}}
+.attendee-images .user-picture {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_attendee-images\.scss}line{font-family:\0000310}}
+.attendee-images .user-picture img {
+  width: 30px;
 }
