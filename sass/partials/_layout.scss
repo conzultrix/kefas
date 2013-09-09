@@ -3,9 +3,10 @@
   position: relative;
 }
 
+/* Section header */
 div#section-header {
   background-color: #222;
-  z-index: 100;
+  z-index: 200;
   width: 100%;
   margin-bottom: 20px;
   //position: fixed;
@@ -23,6 +24,25 @@ div#section-header {
     .l-main {
       padding-top: 100px;
     }
+  }
+}
+
+/* Section footer */
+#section-footer {
+  color: #fff;
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  border-top: 10px solid $links;
+  
+  h2 {
+    color: #fff;
+  }
+}
+
+/* connections */
+.l-connections {
+  h2 {
+    display: none;
   }
 }
 
@@ -224,6 +244,24 @@ div#section-header {
       //clear: right;
       text-align: left;
       padding-left: 15.4061625%; /* 55px / 357px */
+    }
+  }
+}
+
+/* Twitter feeds */
+@include at-breakpoint($tab) {
+  .l-twitter {
+    display: inline-block;
+    
+    .views-row-odd,
+    .views-row-even {
+      width: 48%;
+      //margin-bottom: 1em;
+      float: left;
+    }
+    
+    .views-row-odd {
+      margin-right: 4%;
     }
   }
 }
