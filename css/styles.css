@@ -460,6 +460,12 @@ div#section-header {
   color: #fff;
 }
 
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/blocks\/_site-connections-block\.scss}line{font-family:\000032}}
+  .site-connections-block {
+    margin-bottom: 20px;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_btn\.scss}line{font-family:\000034}}
 .btn {
   letter-spacing: 0.015em;
@@ -579,4 +585,54 @@ div#section-header {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_attendee-images\.scss}line{font-family:\0000310}}
 .attendee-images .user-picture img {
   width: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/images\/social\/\*\.png}line{font-family:\0000398}}
+.social-sprite, .icon-facebook, .icon-facebook:hover, .icon-twitter, .icon-twitter:hover, .icon-gplus, .icon-gplus:hover, .icon-contact, .icon-contact:hover {
+  background: url('../images/generated/../images/social-s144f5024b7.png') no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\000033}}
+.icon {
+  width: 28px;
+  height: 28px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\000039}}
+.icon-facebook {
+  background-position: 0 -140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\0000312}}
+.icon-facebook:hover {
+  background-position: 0 -56px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\0000317}}
+.icon-twitter {
+  background-position: 0 -196px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\0000320}}
+.icon-twitter:hover {
+  background-position: 0 -168px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\0000325}}
+.icon-gplus {
+  background-position: 0 -28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\0000328}}
+.icon-gplus:hover {
+  background-position: 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\0000333}}
+.icon-contact {
+  background-position: 0 -112px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_icon\.scss}line{font-family:\0000336}}
+.icon-contact:hover {
+  background-position: 0 -84px;
 }

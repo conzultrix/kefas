@@ -1,0 +1,39 @@
+@import '../images/social/*.png';
+
+.icon {
+  width: 28px;
+  height: 28px;
+  @include hide-text;
+}
+
+.icon-facebook {
+  @include social-sprite("fb-grey-28");
+  
+  &:hover {
+    @include social-sprite("fb-28");
+  }
+}
+
+.icon-twitter {
+  @include social-sprite("twitter-grey-28");
+  
+  &:hover {
+    @include social-sprite("twitter-28");
+  }
+}
+
+.icon-gplus {
+  @include social-sprite("g-plus-grey-28");
+  
+  &:hover {
+    @include social-sprite("g-plus-28");
+  }
+}
+
+.icon-contact {
+  @include social-sprite("contact-grey-28");
+  
+  &:hover {
+    @include social-sprite("contact-28");
+  }
+}
