@@ -33,6 +33,7 @@ div#section-header {
   background-color: rgb(26, 26, 26);
   width: 100%;
   border-top: 10px solid $links;
+  padding-top: 20px;
   
   h2 {
     color: #fff;
@@ -264,4 +265,19 @@ div#section-header {
       margin-right: 4%;
     }
   }
+}
+
+.l-grid {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.l-grid > li {
+  display: inline-block;
+  margin: 0 0.8474576%  0.8474576% 0; /* 10px / 1180px */
+  
+  /* IE7 hack to mimic inline-block */
+  *display: inline;
+  *zoom: 1;
 }

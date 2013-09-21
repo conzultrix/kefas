@@ -1,0 +1,8 @@
+.node--wiki--full {
+  @include at-breakpoint($tab) {
+    .field--name-field-image {
+      float: right;
+      width: 40.6779661%; /* 480px / 1180px = 40.6779661% */
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.photo-gallery {
+  img {
+    border: 5px solid #fff;
+    box-shadow: #858585 1px 1px 4px;
+    
+    &:hover {
+      padding: 3px;
+      background: #fff;
+      border: 2px solid #000;
+    }
+  }
+}
+
+ul.links li.photo_field_photo_gallery {
+  float: right;
+}

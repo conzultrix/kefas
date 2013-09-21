@@ -32,9 +32,11 @@ header .block__title {
 a {
   color: $links;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: $hover;
 }
 

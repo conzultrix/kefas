@@ -1,4 +1,5 @@
 @import '../images/social/*.png';
+@import '../images/menu/*.png';
 
 .icon {
   width: 28px;
@@ -37,3 +38,12 @@
     @include social-sprite("contact-28");
   }
 }
+
+.icon-16 {
+  width: 16px;
+  height: 16px;
+}
+.icon-wall .icon-16 { @include menu-sprite("wall");}
+.icon-wiki .icon-16 { @include menu-sprite("wiki");}
+.icon-calendar .icon-16 { @include menu-sprite("calendar");}
+.icon-gallery .icon-16 { @include menu-sprite("gallery");}

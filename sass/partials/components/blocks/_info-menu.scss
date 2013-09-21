@@ -1,0 +1,18 @@
+.info-menu {
+  ul {
+    //width: 80%;
+  }
+  
+  li  {
+    border-bottom: 1px solid #eee;
+    padding: 3px 0;
+  }
+  
+  .label {
+    clear: left;
+  }
+  
+  .count, .icon-16 {
+    float: right;
+  }
+}

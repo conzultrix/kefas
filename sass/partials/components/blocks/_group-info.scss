@@ -1,0 +1,22 @@
+.group-info-block {
+  //background: #edefed;
+  border-radius: 10px;
+  padding: 20px 10px;
+  //padding-bottom: 20px;
+  
+  .block__title { display: none;}
+  
+  .group-name {
+    
+  }
+ 
+  .founded {
+    font-style: italic;
+    font-size: 90%;
+  }
+  .user-picture {
+    //float: right;
+    text-align: right;
+    margin-top: -30px;
+  }
+}

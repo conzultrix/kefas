@@ -7,6 +7,9 @@
   text-decoration: none;
   @include sassy-button-structure(0.3em, 0.875em, 0.3125em 0.75em);
   @include sassy-button-gradient('glass', #D60202);
+  &:hover {
+    color: #fff;
+  }
 }
 
 .btn a {
@@ -14,6 +17,6 @@
   display: block;
 }
 
-.btn-rsvp {
+.btn-rsvp, {
   float: right;
 }
