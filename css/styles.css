@@ -759,15 +759,16 @@ div#section-header {
 .photo-gallery img {
   border: 5px solid #fff;
   box-shadow: #858585 1px 1px 4px;
+  transition: border-color 0.4s ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_photo-gallery\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_photo-gallery\.scss}line{font-family:\000037}}
 .photo-gallery img:hover {
   padding: 3px;
   background: #fff;
   border: 2px solid #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_photo-gallery\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_photo-gallery\.scss}line{font-family:\0000315}}
 ul.links li.photo_field_photo_gallery {
   float: right;
 }
