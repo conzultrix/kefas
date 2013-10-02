@@ -11,6 +11,7 @@
   bottom: 0;
   width: 100%;
   padding-bottom: 10px;
+  line-height: 1.2;
   
   a {
     color: #fff;
@@ -18,6 +19,8 @@
   
   h3 {
     margin: 0.125em 0;
+    display: block;
+    overflow: hidden;
   }
 }
 

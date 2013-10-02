@@ -281,3 +281,44 @@ div#section-header {
   *display: inline;
   *zoom: 1;
 }
+
+.l-group-list > li {
+  display: block;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.l-group-list {
+  .no-content-text {color: #999;}
+  .field--name-field-group-photo,
+  .group-square-content,
+  .field--name-body {
+    padding: 10px;
+  }
+  .field--name-field-group-photo { padding-left: 0;}
+  
+}
+
+@include at-breakpoint($tab) {
+  .l-group-list {
+    .field--name-field-group-photo,
+    .group-square-content {
+      width: 25%;
+      display: block;
+      float: left;
+    }
+    .field--name-body {
+      width: 50%;
+      display: block;
+      float: left;
+    }
+    .group-square-content {
+      float: right;
+      border-left: 1px solid #ccc;
+      //padding: 10px;
+    }
+    
+    
+    h3 {margin-top: 0;}
+  }
+}

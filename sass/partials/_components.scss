@@ -13,3 +13,7 @@
 @import "components/node/icon";
 @import "components/node/wiki";
 @import "components/node/photo-gallery";
+
+.list-underline > li {
+  border-bottom: 1px solid #eee;
+}

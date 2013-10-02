@@ -3,6 +3,8 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 100%;
+  line-height: 1.7;
+  color: $font;
 }
 
 #{headings(all)} {
@@ -11,7 +13,7 @@ body {
 
 
 p {
-  line-height: 1.5em;
+  //line-height: 1.5em;
 }
 
 .timestamp {
