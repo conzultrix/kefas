@@ -1,4 +1,4 @@
-<div class="l-page">
+<div<?php print $attributes; ?>>
   <div id="section-header" class="l-section-header clearfix">
     <header class="l-header" role="banner">
       <div class="l-branding">

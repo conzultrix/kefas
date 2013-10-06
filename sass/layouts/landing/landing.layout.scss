@@ -81,9 +81,8 @@ $desk-cols: 24;
     clear: both;
   }
   
-  .sidebar-first,
-  .sidebar-second,
-  .two-sidebars {
+  .has-two-sidebars,
+  .has-one-sidebar {
     .l-content {
       @include span-columns(8, 12); // Span 8 out of 12 columns.
     }
@@ -176,7 +175,7 @@ $desk-cols: 24;
     @include span-columns($desk-cols/2, $desk-cols); // Span 12 out of 24 columns.
   }
 
-  .sidebar-first {
+  .has-sidebar-first {
     .l-content {
       @include span-columns(2 * $desk-cols/3 omega, $desk-cols); // Span the last (omega) 12 columns of 16.
     }
@@ -184,7 +183,7 @@ $desk-cols: 24;
       @include span-columns($desk-cols/3, $desk-cols); // Span 4 out of 16 columns.
     }
   }
-  .sidebar-second {
+  .has-sidebar-second {
     .l-content {
       @include span-columns(2 * $desk-cols/3, $desk-cols); // Span 12 out of 16 columns.
     }
@@ -194,7 +193,7 @@ $desk-cols: 24;
     }
   }
 
-  .two-sidebars {
+  .has-two-sidebars {
     .l-content {
       @include span-columns($desk-cols/3, $desk-cols); // Span 12 out of 16 columns.
       @include push($desk-cols/3, $desk-cols);  // Push element by adding 4 out of 16 columns of left margin.
