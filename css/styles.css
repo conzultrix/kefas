@@ -816,6 +816,11 @@ ul.links li.photo_field_photo_gallery {
   float: right;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/components\/node\/_photo-gallery\.scss}line{font-family:\0000319}}
+.photo-gallery-list li {
+  position: relative;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sosa\/www\/campuswiki-dev\/web\/sites\/all\/themes\/kefas\/sass\/partials\/_components\.scss}line{font-family:\0000317}}
 .list-underline > li {
   border-bottom: 1px solid #eee;
