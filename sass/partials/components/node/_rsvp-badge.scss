@@ -1,0 +1,41 @@
+.rsvp-badge {
+  position: relative;
+  border: 2px solid #E51937;
+  line-height: 1.1;
+  width: 170px;
+  border-radius: 0.25em;
+  padding-left: 0.25em;
+  .spots {
+    float: left;
+    //width: 55%;
+  }
+  .rsvp-link {
+    float: right;
+    background: #E51937;
+    
+    a {
+      display: block;
+      //float: left;
+      //border: 1px $links dashed;
+      padding: 5px;
+      margin: 4px 0 0 4px;
+      //background: #E51937;
+      color: #fff;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  .rsvp-flipcard-count {
+    font-size: 1.75em; /* 28 / 16 = 1.75em */
+    color: #E51937;
+    margin-right: 0.2em;
+    float: left;
+  }
+  .rsvp-flipcard-text {
+    font-size: 0.875em; /* 14 / 16 = 0.625em */
+    width: 2em;
+    display: block;
+    float: left;
+  }
+}

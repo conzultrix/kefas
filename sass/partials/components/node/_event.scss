@@ -1,0 +1,24 @@
+.node--event--teaser,
+.node--event--alternate-teaser {
+  h2 {
+    margin: 0.125em 0;
+  }
+  
+  p {
+    margin: 0.125em 0;
+  }
+}
+
+.node--event--showcase {
+  .attendee-images {
+    float: left;
+  }
+}
+
+.node--event--alternate-teaser{
+  .field--name-field-event-date,
+  .event-attendance {
+    font-size: 0.875em; /* 14 / 16 */
+    line-height: 1.2;
+  }
+}

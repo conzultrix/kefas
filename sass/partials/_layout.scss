@@ -322,3 +322,32 @@ div#section-header {
     h3 {margin-top: 0;}
   }
 }
+
+
+.l-event-teaser > li {
+  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.l-event-teaser {
+  .field--name-body {
+    clear: left;
+  }
+  
+  .field--name-field-venue {
+    font-weight: bold;
+  }
+  
+  @include at-breakpoint($tab) {
+    .event-field-group-left {
+      float: left;
+      width: 70%;
+      margin-right: 2%;
+    }
+    
+    .event-field-group-right {
+      float: right;
+      width: 28%;
+    }
+  }
+}
